@@ -8,6 +8,10 @@ gem 'rails', '3.2.8'
 gem "mongoid", "~> 3.0.0"
 gem "bson_ext", "1.8.0"
 
+group :development, :test do
+  gem 'brice'
+end
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
